@@ -18,10 +18,12 @@ body {
 }
 
 .instagram-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    column-gap: 1.25rem;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 935px;
     height: 100vh;
 }
 
@@ -29,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 618px;
 }
 
 .instagram-phone img {
@@ -115,18 +117,18 @@ body {
 }
 
 .app-download {
+    display: flex;
+    flex-direction: row;
     height: 1rem;
     width: 10rem;
     background-size: cover;
 }
 
-.app-download:nth-child(1) {
-    background-image: url('./img/apple-button.png');
+.app-download:nth-child(1) {    
     height: 40px;
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
     height: 40px;
 }
 
