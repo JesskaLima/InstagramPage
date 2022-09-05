@@ -22,14 +22,13 @@ body {
 
 .instagram-wrapper {
     display: grid;
-    grid-template-columns: 1fr 360px;   
+    grid-template-columns: 1fr 350px;   
     column-gap: 1rem;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     width: 960px;
     height: 100vh;
-    margin: 120px 290px 150px;
-    padding: 10px;
+    margin: 32px 298px;
 }
 
 .instagram-phone {
@@ -63,8 +62,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 120%;
-    
+    width: 120%;    
     padding: 70px 50px 50px 50px;
     margin: 5px;
     border: 1px solid lightgray; 
@@ -72,13 +70,20 @@ body {
 }
 
 .group:nth-child(1) {
-    min-height: 26rem; 
-    height: 90px;   
+    width: 350px;
+    height: 336px;   
+}
+
+.group:nth-child(2) {
+    width: 350px;
+    height: 92px;   
 }
 
 .instagram-logo {
-    height: 4rem;
-    margin-bottom: auto;
+    height: 3rem;
+    margin-bottom: 45px 90px;
+    width: 175px;
+    height: 51px;
     
 }
 
@@ -88,7 +93,7 @@ body {
     align-items: center;       
     overflow: hidden;
     width: 130px;
-    margin: 0px 0px 10px;
+    margin: none;
     padding: 0px 0px 10px;
     color: #ffffff;
       
@@ -101,23 +106,26 @@ body {
     border-radius: 50%;
     border: 0px solid #ffffff;
     align-self: center;
-    border-radius: 50%;
     display: flex;
-    width: 86.22px;
-    height: 86.22px;
-    margin: 30px 15px;    
+    width: 118px;
+    height: 132px;
+    margin-top: 10px;
+        
 }
 
 .instagram-login {
+    width: 16rem;
+    font-size: 17px;
     background-color: #0095F6;
     color: #ffffff;
-    padding: 20px ; 
+    padding: 10px;
     border-radius: 0.25rem;    
-    height: 30px;
     font-weight: bold;
     justify-content: center;
-    margin-bottom: 20px;
-   
+    margin: 5px;
+    
+    appearance: none;
+    border: none;
     
     
 }
@@ -125,6 +133,7 @@ body {
 .instgram-logout {
     color: #0095F6;
     margin-top: 1rem;
+    
 }
 
 .not-acount {
